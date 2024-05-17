@@ -5,7 +5,7 @@ import { HomeRedirect } from './RouteUtils'
 const RouteController = lazy(() => import('./RouteController'))
 const NotFound = lazy(() => import('../components/Pages/NotFound'))
 const Login = lazy(() => import('../components/Pages/Login'))
-const Home = lazy(() => import('../components/Pages/Home'))
+const Home = lazy(() => import('../components/Pages/Home')) 
 const Dashboard = lazy(() => import('../components/Pages/Dashboard'))
 const Usuarios = lazy(() => import('../components/Pages/Usuarios'))
 const Equipos = lazy(() => import('../components/Pages/Equipos'))
